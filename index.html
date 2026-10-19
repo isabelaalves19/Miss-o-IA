@@ -9,19 +9,55 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
-
 <body>
-  <div class="caixa-principal">
-    <h1>Você decide o futuro da IA</h1>
+  <main class="caixa-principal">
+    <header class="cabecalho">
+      <p class="subtitulo">UMA JORNADA PELO FUTURO</p>
+      <h1>Você decide o futuro da IA</h1>
+      <p class="introducao">
+        Suas escolhas de hoje ajudam a imaginar o mundo de amanhã.
+      </p>
+    </header>
 
-    <div class="caixa-perguntas"></div>
-
-    <div class="caixa-alternativas"></div>
-
-    <div class="caixa-resultado">
-      <p class="texto-resultado"></p>
-      <button class="botao-reiniciar" hidden>Jogar novamente</button>
+    <div class="progresso">
+      <div class="progresso-info">
+        <span id="numero-pergunta">Pergunta 1 de 5</span>
+        <span id="porcentagem">20%</span>
+      </div>
+      <div class="barra-progresso">
+        <div class="barra-progresso-preenchida"></div>
+      </div>
     </div>
-  </div>
+
+    <section class="conteudo-jogo">
+      <p class="etiqueta">SUA ESCOLHA</p>
+
+      <h2 class="caixa-perguntas"></h2>
+
+      <div class="caixa-alternativas"></div>
+
+      <div class="caixa-feedback" hidden aria-live="polite">
+        <p class="feedback-etiqueta">REFLITA SOBRE SUA ESCOLHA</p>
+        <p class="texto-feedback"></p>
+        <button class="botao-proxima">Próxima pergunta →</button>
+      </div>
+    </section>
+
+    <section class="caixa-resultado" hidden aria-live="polite">
+      <p class="subtitulo">SUA JORNADA TERMINOU</p>
+      <h2>O futuro começa com você.</h2>
+      <p class="texto-resultado"></p>
+
+      <div class="resumo-escolhas"></div>
+
+      <button class="botao-reiniciar">Jogar novamente ↻</button>
+    </section>
+
+    <footer>
+      <span>INTELIGÊNCIA ARTIFICIAL</span>
+      <span>•</span>
+      <span>O FUTURO ESTÁ EM SUAS MÃOS</span>
+    </footer>
+  </main>
 </body>
 </html>
