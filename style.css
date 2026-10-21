@@ -181,15 +181,15 @@ button:focus-visible {
   margin-top: 25px;
   padding: 27px;
   background: #8b0062;
-  background: ;
+  background:;
   border: 1px solid #c078aa;
-  border-left: 5px solid var(--azul);
+  border-left: 5px solid var(--rosa);
   border-radius: 14px;
 }
 
 .feedback-etiqueta {
   margin: 0 0 13px;
-  color: var(--azul);
+  color: var(--azul-claro);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.5px;
