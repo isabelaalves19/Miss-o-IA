@@ -17,98 +17,98 @@ const barraProgresso = document.querySelector(".barra-progresso-preenchida");
 const perguntas = [
   {
     enunciado:
-      "Assim que sai da escola, você se depara com uma nova tecnologia: um chat capaz de responder dúvidas e gerar imagens e áudios hiper-realistas. Qual é seu primeiro pensamento?",
+      "Se você está muito estressado ou com raiva de alguém, o que você faz?",
 
     alternativas: [
       {
-        texto: "Isso é assustador!",
+        texto: "Desconta a frustração na primeira pessoa que aparece ou quebra algum objeto.",
         afirmacao:
-          "Você demonstra cautela diante de uma tecnologia nova. Questionar os riscos da Inteligência Artificial é importante, pois precisamos avaliar a privacidade, a desinformação e os possíveis impactos antes de confiar nela."
+          " A agressividade não resolve o problema e prejudica suas relações sociais e sua própria saúde."
       },
       {
-        texto: "Isso é maravilhoso!",
+        texto: " Tira um momento para respirar, afasta-se da situação e tenta se acalmar.",
         afirmacao:
-          "Você demonstra entusiasmo com as possibilidades da tecnologia! A Inteligência Artificial pode ajudar na educação, na criatividade e na solução de problemas. O importante é aproveitar seus benefícios sem deixar de avaliar seus riscos."
+          " Você prioriza o seu bem-estar e resolve a situação de forma madura, sem machucar os outros."
       }
     ]
   },
 
   {
     enunciado:
-      "Sua professora de tecnologia pede um trabalho sobre o uso da Inteligência Artificial em sala de aula. Qual atitude você toma?",
+      "Quando um amigo compartilha um problema triste com você, qual é sua reação?",
 
     alternativas: [
       {
         texto:
-          "Utilizo uma ferramenta de IA para encontrar informações e entender melhor o assunto.",
+          "Escuta com atenção e oferece apoio.",
         afirmacao:
-          "Ótima iniciativa! A IA pode ser uma ferramenta útil para aprender e pesquisar. Para utilizá-la de forma responsável, confira as informações em fontes confiáveis e escreva o trabalho com suas próprias palavras."
+          "Praticar a empatia fortalece os laços sociais e contribui para construir uma rede de apoio saudável."
       },
       {
         texto:
-          "Faço o trabalho com minhas pesquisas, meus conhecimentos e as conversas com meus colegas.",
+          "Você diz que é bobagem ou que a pessoa está dramatizando e muda logo de assunto.",
         afirmacao:
-          "Você valoriza o pensamento próprio e a colaboração! Pesquisar, conversar e organizar suas ideias ajuda a desenvolver sua autonomia. Você também pode utilizar ferramentas tecnológicas como apoio, sem depender delas para pensar."
+          "Validar os sentimentos dos outros é uma forma de empatia, fortalece os vínculos sociais e ajuda a pessoa."
       }
     ]
   },
 
   {
     enunciado:
-      "Durante um debate na escola, a turma discute como a Inteligência Artificial pode afetar os empregos do futuro. Como você se posiciona?",
+      "Se você percebe que cometeu um erro grave, como você reage?",
 
     alternativas: [
       {
         texto:
-          "A IA pode criar oportunidades de emprego e melhorar as habilidades humanas.",
+          "Você finge que nada aconteceu ou joga a culpa na outra pessoa para não admitir que errou.",
         afirmacao:
-          "Você enxerga as oportunidades da inovação! A IA pode criar novas profissões, facilitar tarefas e ampliar capacidades humanas. Para que esses benefícios sejam compartilhados, também é importante investir em educação e qualificação profissional."
+          "Não assumir os próprios erros impede o desenvolvimento pessoal e gera desconfiança."
       },
       {
         texto:
-          "Precisamos proteger os trabalhadores que podem perder seus empregos para as máquinas.",
+          "Reconhece a falha, pede desculpas sinceramente e tenta consertar a situação.",
         afirmacao:
-          "Você demonstra preocupação com a justiça social! A automação pode transformar profissões e prejudicar trabalhadores. A preparação para essas mudanças, a qualificação e políticas de proteção podem ajudar a tornar essa transição mais justa."
+          "Ter responsabilidade afetiva mostra maturidade emocional e respeito pelo próximo."
       }
     ]
   },
 
   {
     enunciado:
-      "Você precisa criar uma imagem no computador que represente sua opinião sobre a Inteligência Artificial. O que você faz?",
+      "Diante de uma opinião totalmente diferente da sua em uma discussão, o que você faz?",
 
     alternativas: [
       {
         texto:
-          "Crio uma imagem utilizando uma ferramenta de design, como o Paint.",
+          "Você começa a gritar, ofende a pessoa e tenta impor o seu ponto de vista a qualquer custo.",
         afirmacao:
-          "Você escolheu desenvolver sua própria criação com uma ferramenta de design! Isso permite exercitar a criatividade e tomar decisões sobre cada detalhe da imagem. Ferramentas tradicionais continuam tendo muito valor no mundo digital."
+          "O respeito à diversidade de ideias é fundamental para a vida em sociedade. A agressividade anula o diálogo."
       },
       {
         texto:
-          "Crio uma imagem utilizando um gerador de imagens de Inteligência Artificial.",
+          "Ouve o argumento do outro com respeito, expressa sua opinião calmamente e aceita que as pessoas pensam diferente.",
         afirmacao:
-          "Você decidiu experimentar uma nova possibilidade criativa! Os geradores de imagens podem ajudar a transformar ideias em imagens. É importante verificar as regras de uso, respeitar os direitos autorais e refletir sobre como a imagem foi produzida."
+          "O diálogo pacífico e a tolerância são essenciais para um convívio social saudável."
       }
     ]
   },
 
   {
     enunciado:
-      "Seu grupo tem um trabalho de Biologia para entregar, e uma pessoa utiliza IA para escrever o texto inteiro. O resultado ficou exatamente igual ao gerado pelo chat. O que você faz?",
+      "Quando você sente que está sobrecarregado e não está bem mentalmente, qual atitude você toma?",
 
     alternativas: [
       {
         texto:
-          "Aceito o texto inteiro, pois utilizar a IA já é uma contribuição para o trabalho.",
+          "Você aceita seus limites, conversa com alguém de confiança ou procura a ajuda de um profissional.",
         afirmacao:
-          "A IA pode ajudar bastante, mas aceitar um texto sem verificar seu conteúdo traz riscos. O texto pode conter erros e não representar o conhecimento do grupo. O melhor é conferir as informações, compreender o assunto e assumir a responsabilidade pelo trabalho."
+          "Reconhecer que precisa de ajuda é um sinal de força e autocuidado com a sua mente."
       },
       {
         texto:
-          "Reviso o texto, verifico as informações e acrescento as ideias do grupo.",
+          "Guarda tudo para si, finge que está bem e continua acumulando emoções até explodir.",
         afirmacao:
-          "Excelente atitude! Você combina as possibilidades da tecnologia com o pensamento crítico e a colaboração. Revisar, verificar informações e contribuir com suas próprias ideias torna o trabalho mais confiável e ajuda todos a aprender."
+          " Ignorar a própria saúde mental pode levar ao esgotamento extremo e a problemas mais graves."
       }
     ]
   }
